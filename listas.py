@@ -3,30 +3,30 @@ my_list = ["string", 15, 15.6, True]
 #Insertar al final
 print("Metodo Insert al final \n")
 my_list.append(6)
-print(my_list \n)
+print(my_list)
 
 #Insertar
 print("Metodo Insert especificando posición \n")
 my_list.insert(1, "insert")
-print(my_list \n)
+print(my_list)
 
 #Remover mediante el valor
 print("Metodo Remove \n")
 my_list.remove(15)
-print(my_list \n)
+print(my_list)
 
 #Remover el ultimo valor de la lista y lo retorna pop()
 print("METODO Array.pop() \n")
 #antes
 print("Antes")
-print(my_list \n)
+print(my_list)
 
 #despues
 
 last_value = my_list.pop()
 print("Despues")
-print(my_list \n)
-print(last_value \n)
+print(my_list)
+print(last_value)
 
 #Metodo de ordenamiento de listas sort
 
@@ -35,11 +35,11 @@ my_list2 = [1,9,22,6,8,65,14,99]
 #ascendente
 my_list2.sort()
 print("Metodo Array Sort Asc \n")
-print(my_list2 \n)
+print(my_list2)
 #descente
 my_list2.sort(reverse = True)
 print("Metodo Array Sort Desc \n")
-print(my_list2 \n)
+print(my_list2)
 
 # Metodo para unir arreglos
 
